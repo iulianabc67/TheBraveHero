@@ -98,7 +98,8 @@ class Battle
         $this->defender = $attacker;
     }
 
-    public function getGameStatus() {
+    public function getGameStatus()
+    {
         return $this->gameOver;
     }
 }
